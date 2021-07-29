@@ -19,9 +19,7 @@ function isValidSubsequence(array, sequence) {
         else {
             mainCount++;
         }
-        
     }
-    console.log(seqCount, lenS);
     if (seqCount >= lenS) {
         return true;
     } 
