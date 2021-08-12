@@ -19,5 +19,4 @@ function kadanesAlgorithm(array) {
         }
     }
     return maxSoFar
-
   }
