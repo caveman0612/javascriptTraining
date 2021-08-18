@@ -7,9 +7,6 @@ function longestPeak(array) {
     const end = array.length - 1;
     const peaks = [];
     const lengths = [];
-    // if (array.length == 0) {
-    //     return 0
-    // }
     for (let i = 1; i < end; i++) {
         if (array[i] > array[i-1] && array[i] > array[i + 1]) {
             peaks.push(i)
