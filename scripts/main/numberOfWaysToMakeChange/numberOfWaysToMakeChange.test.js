@@ -1,9 +1,20 @@
 const numberOfWaysToMakeChange = require("./numberOfWaysToMakeChange");
 
 test("should do things", () => {
-  expect(numberOfWaysToMakeChange(6, [1, 5])).toEqual([5, 1]);
+  const answer = numberOfWaysToMakeChange(6, [1, 5]);
+  console.log(answer);
+  expect(answer).toBe(2);
 });
 
-test("should do things", () => {
-  expect(numberOfWaysToMakeChange(6, [1, 5])).toEqual([0, 1, 2, 3, 4, 5, 5]);
-});
+// [
+//     [],
+//     [1, 1],
+//     [2, 1],
+//     [3, 1],
+//     [4, 1],
+//     [1, 5],
+//     [
+//       [1, 5],
+//       [1, 1],
+//     ],
+//   ]
