@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/caveman0612/javascriptTraining/issues"
   },
-  "homepage": "https://github.com/caveman0612/javascriptTraining#readme"
+  "homepage": "https://github.com/caveman0612/javascriptTraining#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
