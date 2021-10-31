@@ -18,5 +18,8 @@
   "homepage": "https://github.com/caveman0612/javascriptTraining#readme",
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
   }
 }
